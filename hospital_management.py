@@ -4,7 +4,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="ritheeshx12",
+        password="admin",
         database="hospital_management"
     )
 
